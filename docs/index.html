@@ -39,13 +39,13 @@
             baseUrl: " ",
             preloaded: [void 0, {}]
         };
-        if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js');
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('./service-worker.js');
         (function() {
             try {
                 eval("async function x(){} ");
-                var main = "/client/client.2d2660bd.js "
+                var main = "./client/client.2d2660bd.js "
             } catch (e) {
-                main = "/client/legacy/client.29925a66.js "
+                main = "./client/legacy/client.29925a66.js "
             };
             var s = document.createElement("script ");
             try {
